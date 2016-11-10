@@ -16,11 +16,12 @@ body {
   background-color: #ccc;
   width: 100vw;
   height: 50vh;
+  overflow: hidden;
   justify-content: center;
   align-items: center;
 }
 
-#box {
+.box {
   background-color: pink;
   padding: 10px;
   margin: 10px;
@@ -29,6 +30,11 @@ body {
 
 #controls {
   margin: 40px 0;
+}
+
+#controls > div {
+  margin: 20px 0;
+  text-align: center;
 }
 
 #controls select {
