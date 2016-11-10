@@ -41,3 +41,14 @@ body {
 #controls select {
   margin: 0px 20px 0px 5px;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  padding: 20px 10px;
+  background-color: pink;
+  border-top: 1px solid firebrick;
+  text-align: center;
+}
