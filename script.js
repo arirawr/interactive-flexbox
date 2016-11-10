@@ -16,6 +16,10 @@ $('#wrap').change(function() {
   $('#flexbox').css('flex-wrap', $(this).val());
 });
 
+$('#aligncontent').change(function() {
+  $('#flexbox').css('align-content', $(this).val());
+});
+
 $('#flex1').change(function() {
   $('#box1').css('flex', $(this).val());
 });

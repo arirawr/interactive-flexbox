@@ -19,6 +19,7 @@ body {
   overflow: hidden;
   justify-content: center;
   align-items: center;
+  align-content: center;
 }
 
 .box {
