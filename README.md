@@ -1,4 +1,4 @@
-# interactive-box-model
-Play with margin, padding, and borders.
+# interactive-flexbox
+Play with flex properties.
 
-##Access [here](http://arirawr.github.io/interactive-box-model)
+## Access [here](http://arirawr.github.io/interactive-flexbox)

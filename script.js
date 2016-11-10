@@ -1,5 +1,13 @@
-$('#padding').change(function() {
-  $('#box').css('padding', $(this).val());
+$('#direction').change(function() {
+  $('#flexbox').css('flex-direction', $(this).val());
+});
+
+$('#justifycontent').change(function() {
+  $('#flexbox').css('justify-content', $(this).val());
+});
+
+$('#alignitems').change(function() {
+  $('#flexbox').css('align-items', $(this).val());
 });
 
 $('#margin').change(function() {

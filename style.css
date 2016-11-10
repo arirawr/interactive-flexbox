@@ -11,8 +11,13 @@ body {
   justify-content: center;
 }
 
-.wrapper {
+#flexbox {
+  display: flex;
   background-color: #ccc;
+  width: 100vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
 }
 
 #box {
@@ -26,6 +31,6 @@ body {
   margin: 40px 0;
 }
 
-#controls input {
+#controls select {
   margin: 0px 20px 0px 5px;
 }
